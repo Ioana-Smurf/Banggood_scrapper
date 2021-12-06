@@ -8,6 +8,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 
+# TODO: move to another file
 class Drone:
 
     def __init__(self, prod_id=0, brand='', title='', price=Decimal(0.00), reviews=0, stars=0.0):
